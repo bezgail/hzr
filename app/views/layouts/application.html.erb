@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hzr</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+    <nav class="top-bar docs-bar hide-for-small" data-topbar="">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">Bootstrap Foundation Five</a></h1>
+        </li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class="divider"></li>
+          <li class="has-dropdown">
+            <a href="#" class="">Learn</a>
+            <ul class="dropdown">
+              <li><a href="index.html">Features</a></li>
+              <li><a href="index.html">FAQ</a></li>
+              <li><a href="index.html">Case Studies</a></li>
+              <li><a href="index.html">Website Examples</a></li>
+              <li><a href="index.html">Videos</a></li>
+              <li><a href="index.html">Training</a></li>
+              <li><a href="index.html">About</a></li>
+            </ul>
+          </li>
+          <li class="divider"></li>
+          <li class="has-dropdown">
+            <a href="#" class="">Develop</a>
+            <ul class="dropdown">
+              <li><a href="index.html">Add-ons</a></li>
+              <li><a href="index.html">Docs</a></li>
+              <li><a href="index.html">Download</a></li>
+              <li><a href="index.html">Contribute</a></li>
+              <li><a href="index.html">Tools</a></li>
+            </ul>
+          </li>
+          <li class="divider"></li>
+          <li class="has-dropdown">
+            <a href="#" class="">Support</a>
+            <ul class="dropdown">
+              <li><a href="index.html">Support Channels</a></li>
+              <li><a href="index.html">Foundation Forum</a></li>
+              <li><a href="index.html">Images &amp; Badges</a></li>
+            </ul>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a href="index.html" class="">Business</a>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a href="documentation.html" class="">Docs</a>
+          </li>
+          <li class="divider"></li>
+        </ul>
+      </section>
+    </nav>
+    <nav class="tab-bar show-for-small">
+      <a class="left-off-canvas-toggle menu-icon">
+        <span>Foundation</span>
+      </a>
+    </nav>
+
+<div class="row">
+<div class="large-1">
+	
+</div>
+	<div class="large-10">
+		<%= yield %>
+	</div>
+<div class="large-1"></div>	
+</div>
+
+
+
+
+</body>
+</html>
